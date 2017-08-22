@@ -1,0 +1,39 @@
+<section class="container">
+<h1>This is history page</h1>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Thumbnail</th>
+			<th>Song name</th>
+			<th>Artists</th>
+			<th>feature</th>
+			<th>Count</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="album in downloadSong track by $index" >
+			<td><img src="{{album.cover_image}}" width="100"></td>
+			<td>{{album.song}}</td>
+			<td>{{album.artists}}</td>
+			<td>downloaded</td>
+			<td>{{album.count}}</td>
+		</tr>
+	</tbody>
+</table>
+
+<!-- <ul class="songList">
+	<li class="row" ng-repeat="album in allData track by $index" >
+		<div class="col-sm-4">
+			<h2>{{album.song}}</h2>
+			<p>{{album.artists}}</p>
+			<a class="btn btn-primary" ng-click="downloadSong(album)" href="{{album.url}}" download="{{album.song}}">Download</a>
+			<a class="btn btn-primary" href="{{album.url}}" target="_blank">Go to the link</a>
+		</div>	
+		<div class="col-sm-8">
+			<img src="{{album.cover_image}}">
+		</div>	
+	</li>
+</ul> -->
+
+</section>

@@ -1,0 +1,21 @@
+/* app css stylesheet */
+/* .panel-group .panel{min-height: 480px;}
+.movieSec .panel-body p b{display: inline-block; vertical-align: top; width: 100px;}
+.movieSec .panel-body p span{display: inline-block; vertical-align: top; width: calc(100% - 110px);
+word-break:break-all;}
+.mainNav .nav>li>a { padding: 10px 9px;}
+.mainNav .nav>li:hover .dropdown-menu{display: block; width: 100vh;}
+.mainNav .nav>li .dropdown-menu li{display: inline-block; vertical-align: top; width: calc(100% / 3);}
+.sorting{margin: 0 0 10px; padding: 0; list-style: none;}
+.sorting > li{display: inline-block; vertical-align: top; font-weight: bold; padding: 0;}
+.sorting li ul{display: inline-block; vertical-align: top;margin: 0; padding: 0; }
+.sorting li ul li{display: inline-block; vertical-align: top; font-weight: normal;}
+
+.autoComplete{background: #fff; position: absolute; right: 5px; top:60px; z-index: 1; width: 300px;box-shadow: 0 0 5px #ddd;} */
+
+ul{list-style: none; margin: 0; padding: 0;}
+ul li{list-style: none; padding: 0;}
+img{max-width: 100%; height: auto;}
+
+ul.songList li{ box-shadow: 0 0 5px #ddd; margin: 0 auto 20px;}
+ul.songList li img{width: 100%; height: auto;}

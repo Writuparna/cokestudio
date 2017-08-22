@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" ng-app="studioApp">
+<head>
+  <meta charset="utf-8">
+  <title>Coke studio App</title>
+  <link rel="stylesheet" href="assets/css/app.css"/>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+</head>
+<body>
+  
+  <div ng-controller="HeaderController">
+      <main-header></main-header>
+    </div>    
+  <div ui-view></div><!---->
+  
+
+  <script src="assets/lib/angular/angular.js"></script>
+  <script src="app/angular-ui-router.min.js"></script>
+  <script src="app/app.js"></script>
+  <script src="app/config.js"></script>
+
+  <script src="app/components/home/homeModuleApp.js"></script>
+  <script src="app/components/home/homeControllers.js"></script>
+  <script src="app/components/home/homeServices.js"></script>
+
+  <script src="app/components/history/historyModuleApp.js"></script>
+  <script src="app/components/history/historyControllers.js"></script>
+  <script src="app/components/history/historyServices.js"></script>
+
+  <script src="app/shared/header/headerModuleApp.js"></script>
+  <script src="app/shared/header/headerControllers.js"></script>
+  <script src="app/shared/header/headerDirectives.js"></script>
+
+
+</body>
+</html>
